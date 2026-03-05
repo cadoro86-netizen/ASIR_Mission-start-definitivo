@@ -119,3 +119,11 @@ También se detectaron errores relacionados con extensiones del navegador que in
 ### Captura de la consola
 
 ![Console Analysis](img/console-analysis.jpg)
+
+### Identificación del concepto
+
+Un error conceptual común cuando se empieza en desarrollo de software es pensar que un editor de código es automáticamente un IDE (Integrated Development Environment).
+
+Un editor de código es una herramienta diseñada principalmente para escribir y editar archivos de programación. En cambio, un IDE es un entorno más completo que integra múltiples herramientas necesarias para el desarrollo de software, como depuradores, compiladores, sistemas de construcción y gestión de dependencias.
+
+Muchos desarrolladores principiantes creen que herramientas como Visual Studio Code son IDEs por defecto, cuando en realidad son editores de código que pueden ampliarse mediante extensiones para ofrecer funcionalidades similares a un IDE.
