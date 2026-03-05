@@ -145,3 +145,13 @@ A diferencia de un editor de código, un IDE incluye funcionalidades más avanza
 Esto permite a los desarrolladores escribir, ejecutar, probar y depurar código desde un mismo entorno, lo que facilita el desarrollo de aplicaciones más complejas.
 
 Algunos ejemplos de IDE son IntelliJ IDEA, Eclipse o Visual Studio.
+
+### Por qué Visual Studio Code puede funcionar como un IDE
+
+Visual Studio Code es originalmente un editor de código ligero. Sin embargo, gracias a su sistema de extensiones puede ampliarse para incorporar muchas de las herramientas que normalmente forman parte de un IDE.
+
+Mediante extensiones es posible añadir funcionalidades como análisis de código, formateo automático, depuración, control de versiones o gestión de dependencias.
+
+En este proyecto se han configurado herramientas como ESLint para el análisis de código y Prettier para el formateo automático. Además, se utiliza npm para gestionar dependencias y la terminal integrada del editor para ejecutar comandos.
+
+Gracias a estas herramientas, Visual Studio Code puede ofrecer una experiencia de desarrollo muy similar a la de un entorno de desarrollo integrado (IDE).
