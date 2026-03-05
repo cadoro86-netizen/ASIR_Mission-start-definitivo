@@ -83,11 +83,11 @@ El análisis permitió identificar algunos posibles problemas de rendimiento.
    - Total de peticiones: 61
 
    **Problema:**  
-   Un número alto de peticiones puede aumentar el tiempo total de carga.
+    Un número alto de peticiones puede aumentar el tiempo total de carga.
 
    **Solución propuesta:**  
-   Combinar archivos, usar caché o utilizar una CDN.
+    Combinar archivos, usar caché o utilizar una CDN.
 
    ### Captura del análisis de Network
 
-![Network Analysis](img/Captura de pantalla 2026-03-05 004747.jpg)
+   ![Network Analysis](img/network-analysis.jpg)
