@@ -127,3 +127,11 @@ Un error conceptual común cuando se empieza en desarrollo de software es pensar
 Un editor de código es una herramienta diseñada principalmente para escribir y editar archivos de programación. En cambio, un IDE es un entorno más completo que integra múltiples herramientas necesarias para el desarrollo de software, como depuradores, compiladores, sistemas de construcción y gestión de dependencias.
 
 Muchos desarrolladores principiantes creen que herramientas como Visual Studio Code son IDEs por defecto, cuando en realidad son editores de código que pueden ampliarse mediante extensiones para ofrecer funcionalidades similares a un IDE.
+
+### Qué es un editor de código
+
+Un editor de código es una herramienta utilizada para escribir y editar archivos de programación. Su función principal es facilitar la lectura y escritura de código mediante características como resaltado de sintaxis, autocompletado y navegación entre archivos.
+
+A diferencia de un entorno de desarrollo integrado (IDE), un editor de código no incluye necesariamente herramientas avanzadas de desarrollo como compiladores, depuradores o gestores de proyectos.
+
+Un ejemplo de editor de código es Visual Studio Code, que permite trabajar con múltiples lenguajes de programación y puede ampliarse mediante extensiones para añadir nuevas funcionalidades.
