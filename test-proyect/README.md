@@ -155,3 +155,13 @@ Mediante extensiones es posible añadir funcionalidades como análisis de códig
 En este proyecto se han configurado herramientas como ESLint para el análisis de código y Prettier para el formateo automático. Además, se utiliza npm para gestionar dependencias y la terminal integrada del editor para ejecutar comandos.
 
 Gracias a estas herramientas, Visual Studio Code puede ofrecer una experiencia de desarrollo muy similar a la de un entorno de desarrollo integrado (IDE).
+
+### Conclusión
+
+Comprender la diferencia entre un editor de código y un IDE es importante para desarrollar una mentalidad profesional como desarrollador.
+
+Un editor de código está diseñado principalmente para escribir y editar código, mientras que un IDE integra múltiples herramientas necesarias para el desarrollo completo de aplicaciones.
+
+Visual Studio Code es originalmente un editor de código, pero gracias a su sistema de extensiones puede ampliarse para incluir herramientas como linters, formateadores, depuradores o integración con gestores de paquetes.
+
+Por esta razón, aunque no es un IDE por defecto, puede configurarse para ofrecer una experiencia de desarrollo muy similar a la de un entorno de desarrollo integrado.
