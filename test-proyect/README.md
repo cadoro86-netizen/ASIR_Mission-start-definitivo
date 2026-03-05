@@ -181,3 +181,23 @@ Este comando ejecuta ESLint y analiza todos los archivos del proyecto para detec
 npm run lint:fix
 
 Este comando ejecuta ESLint e intenta corregir automáticamente los problemas detectados cuando es posible.
+
+## Verificación de scripts npm
+
+Se ejecutaron los scripts definidos en `package.json` para comprobar que ESLint funciona correctamente.
+
+### Ejecución de lint
+
+npm run lint
+
+Este comando analiza el código del proyecto en busca de errores o problemas de estilo.
+
+### Corrección automática
+
+npm run lint:fix
+
+Este comando intenta corregir automáticamente los problemas detectados por ESLint cuando es posible.
+
+### Captura de la ejecución
+
+![Prueba de scripts npm](img/npm-scripts-test.jpg)
