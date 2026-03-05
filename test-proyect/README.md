@@ -44,3 +44,50 @@ entorno de desarrollo completo similar al de un IDE.
 Aunque Visual Studio Code es técnicamente un editor de código, su arquitectura basada
 en extensiones permite transformarlo en un entorno de desarrollo completo adaptado
 a diferentes lenguajes y necesidades del desarrollador.
+
+Para analizar el rendimiento de la página se utilizó la pestaña **Network** de las herramientas de desarrollo del navegador.
+
+Se recargó la página y se analizaron las peticiones realizadas por el navegador, observando el tipo de recurso, tamaño y tiempo de carga de cada uno.
+
+El análisis permitió identificar algunos posibles problemas de rendimiento.
+
+### Problemas detectados
+
+1. **Archivo JavaScript de gran tamaño**
+   - Recurso: `main.tsx-b1444874.js`
+   - Tipo: script
+   - Tamaño: 584 KB
+
+   **Problema:**  
+   Un archivo JavaScript grande puede ralentizar la carga de la página.
+
+   **Solución propuesta:**  
+   Minificar el código o dividir el archivo en varios bundles (code splitting).
+
+---
+
+2. **Recurso que falla al cargarse**
+   - Recurso: `invalid`
+   - Estado: failed
+   - Tipo: script
+
+   **Problema:**  
+   El navegador intenta cargar un script que no existe o cuya ruta es incorrecta.
+
+   **Solución propuesta:**  
+   Revisar la ruta del archivo o verificar que el recurso exista en el servidor.
+
+---
+
+3. **Número elevado de peticiones**
+   - Total de peticiones: 61
+
+   **Problema:**  
+   Un número alto de peticiones puede aumentar el tiempo total de carga.
+
+   **Solución propuesta:**  
+   Combinar archivos, usar caché o utilizar una CDN.
+
+   ### Captura del análisis de Network
+
+![Network Analysis](img/network-analysis.png)
