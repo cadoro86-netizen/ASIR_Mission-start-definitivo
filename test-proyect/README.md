@@ -91,3 +91,31 @@ El análisis permitió identificar algunos posibles problemas de rendimiento.
    ### Captura del análisis de Network
 
    ![Network Analysis](img/network-analysis.jpg)
+   ![Console Analysis](img/console-analysis.jpg)
+
+## Issue 2.2 – Depuración con Console
+
+Para analizar errores de ejecución se utilizó la pestaña Console de las herramientas de desarrollo del navegador.
+
+Durante el análisis se detectaron varios errores generados por scripts y extensiones del navegador.
+
+### Error detectado
+
+Tipo de error: Failed to fetch dynamically imported module
+
+Descripción:
+El navegador intenta cargar un módulo JavaScript dinámicamente pero no puede encontrar el recurso.
+
+Impacto:
+Este error puede impedir que algunas funcionalidades de la página se ejecuten correctamente.
+
+Solución propuesta:
+Verificar la ruta del archivo JavaScript y asegurar que el módulo esté disponible en el servidor.
+
+### Otros errores observados
+
+También se detectaron errores relacionados con extensiones del navegador que intentaban cargar recursos bloqueados por Chrome.
+
+### Captura de la consola
+
+![Console Analysis](img/console-analysis.jpg)
