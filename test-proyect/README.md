@@ -165,3 +165,19 @@ Un editor de código está diseñado principalmente para escribir y editar códi
 Visual Studio Code es originalmente un editor de código, pero gracias a su sistema de extensiones puede ampliarse para incluir herramientas como linters, formateadores, depuradores o integración con gestores de paquetes.
 
 Por esta razón, aunque no es un IDE por defecto, puede configurarse para ofrecer una experiencia de desarrollo muy similar a la de un entorno de desarrollo integrado.
+
+## Scripts disponibles
+
+Este proyecto incluye scripts npm para analizar y corregir el código automáticamente usando ESLint.
+
+### Ejecutar análisis de código
+
+npm run lint
+
+Este comando ejecuta ESLint y analiza todos los archivos del proyecto para detectar errores o problemas de estilo.
+
+### Corregir errores automáticamente
+
+npm run lint:fix
+
+Este comando ejecuta ESLint e intenta corregir automáticamente los problemas detectados cuando es posible.
