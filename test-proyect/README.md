@@ -90,4 +90,4 @@ El análisis permitió identificar algunos posibles problemas de rendimiento.
 
    ### Captura del análisis de Network
 
-![Network Analysis](img/network-analysis.png)
+![Network Analysis](img/Captura de pantalla 2026-03-05 004747.jpg)
